@@ -1,0 +1,42 @@
+// // .responsive-contact-form-7-styler-container {
+// //     max-width: 650px;
+// //     padding: 50px;
+// //     margin: 0 auto;
+// //     border: solid 1px #000000;
+  
+// //   }
+  // .wpcf7-form-control {width: 100% !important;}
+  .form{
+    margin: auto;
+    max-width: -webkit-fill-available;
+  }
+
+  .wp-core-ui select{
+    max-width: 100%;
+  }
+
+  input[type=checkbox]:checked::before{
+    content: "\2714" !important;
+    line-height: 1.2;
+    // display: contents;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+  }
+  
+
+  input[type=radio]:checked::before{
+    margin: 0.2em;
+  }
+
+
+  .wpcf7-checkbox input[type=checkbox]+span:before{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  // input.wpcf7-form-control.has-spinner.wpcf7-submit{
+  //   width: auto;
+  // }

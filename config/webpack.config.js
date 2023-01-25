@@ -7,7 +7,7 @@ const RtlCssPlugin = require( 'rtlcss-webpack-plugin' );
 const FixStyleOnlyEntriesPlugin = require( "webpack-fix-style-only-entries" );
 const nodeSassGlobImporter = require( 'node-sass-glob-importer' );
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.NODE_ENV === 'development';
 
 module.exports = {
 	...defaultConfig,
